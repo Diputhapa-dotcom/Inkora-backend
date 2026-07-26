@@ -1,13 +1,4 @@
 const { blogs } = require("../../model");
-
-
-
-
-
-
-
-
-
 exports.addBlog = async (req,res) =>{
     const userid = req.userId;
     console.log("aaxa hai",userid)
